@@ -30,18 +30,29 @@ The model uses **Linear Regression** trained on a dataset with the following fea
 
 ## 📁 Project Structure
 
-
 ---
 
 ## ⚙️ Installation
 
+1. Clone the repository:
+```shell
+git clone https://github.com/your-username/car-price-prediction.git
+```
 
-cd car-price-prediction
-------
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-------
+2. Install the dependencies:
+```shell
 pip install -r requirements.txt
-------
+```
+
+3. Navigate inside the app folder
+```shell
+cd app
+```
+
+4. Run the streamlit app
+```shell
 streamlit run app.py
+```
+
+
 
